@@ -119,7 +119,7 @@ export default function Home() {
             <p className="text-gray-600 mt-2">
             My first dive into DevOps practices involved creating and managing Azure resources to host and deploy a web app. Leveraging Azures cloud services, I set up an SQL database, 
             integrated continuous integration and deployment pipelines, and ensured seamless hosting for the application. The web app, now live, can be accessed through the following link: <a href ="https://threeamigowebapp-d9akb5fehhhqeuhe.uksouth-01.azurewebsites.net/Home/Index">ThAmCo Product</a>. 
-            This project provided valuable hands-on experience with DevOps workflows, cloud resource management, and automation in a real-world setting.</p>
+            This project provided valuable hands-on experience with DevOps workflows and cloud resource management.</p>
             <div className="mt-2 text-sm text-gray-500">
               <span className="bg-red-200 text-red-800 px-3 py-1 rounded-full mr-2 mb-2">C#</span>
               <span className="bg-red-200 text-red-800 px-3 py-1 rounded-full mr-2 mb-2">.NET</span>
