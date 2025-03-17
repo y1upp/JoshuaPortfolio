@@ -63,13 +63,13 @@ export default function Home() {
               </button>
             </div>
             <h3 className="text-xl font-semibold text-gray-800">VocabVoyage</h3>
-            <p className="text-gray-600 mt-2">
-            VocabVoyage is an interactive language learning platform designed to make studying more engaging and effective. 
-            Combining gamification with personalized learning, users progress through lessons, complete challenges, and level up
-             to unlock new content. Built using Next.js, React, and Node.js, with PocketBase for user management, the platform allows 
-             users to build their own word banks and track their progress in real-time. VocabVoyage is crafted to support multiple languages
-              and provide an immersive, fun, and educational experience.
-            </p>
+            <p className="text-lg text-gray-600 mt-2">
+  VocabVoyage is an interactive language learning platform designed to make studying more engaging and effective. 
+  Combining gamification with personalized learning, users progress through lessons, complete challenges, and level up
+  to unlock new content. Built using Next.js, React, and Node.js, with PocketBase for user management, the platform allows 
+  users to build their own word banks and track their progress in real-time. VocabVoyage is crafted to support multiple languages
+  and provide an immersive, fun, and educational experience.
+</p>
             <div className="mt-2 text-sm text-gray-500">
               <span className="bg-blue-200 text-blue-800 px-3 py-1 rounded-full mr-2 mb-2">Next.js</span>
               <span className="bg-blue-200 text-blue-800 px-3 py-1 rounded-full mr-2 mb-2">React</span>
@@ -117,7 +117,7 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-semibold text-gray-800">MVC App</h3>
             <p className="text-gray-600 mt-2">
-            My first dive into DevOps practices involved creating and managing Azure resources to host and deploy a web app. Leveraging Azure's cloud services, I set up an SQL database, 
+            My first dive into DevOps practices involved creating and managing Azure resources to host and deploy a web app. Leveraging Azures cloud services, I set up an SQL database, 
             integrated continuous integration and deployment pipelines, and ensured seamless hosting for the application. The web app, now live, can be accessed through the following link: <a href ="https://threeamigowebapp-d9akb5fehhhqeuhe.uksouth-01.azurewebsites.net/Home/Index">ThAmCo Product</a>. 
             This project provided valuable hands-on experience with DevOps workflows, cloud resource management, and automation in a real-world setting.</p>
             <div className="mt-2 text-sm text-gray-500">
