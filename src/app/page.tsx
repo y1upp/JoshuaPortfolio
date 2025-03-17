@@ -23,16 +23,8 @@ export default function Home() {
       {/* Header Section */}
       <header className="text-center sm:text-left w-full">
         <h1 className="text-4xl sm:text-5xl font-semibold text-gray-800">Joshua Bentley</h1>
-        <p className="text-lg text-gray-600 mt-2">Software Engineer | Developer | Creator</p>
+        <p className="text-lg text-gray-600 mt-2">Graduate Software Engineer | Developer </p>
       </header>
-
-      {/* About Section */}
-      <section className="text-center sm:text-left w-full">
-        <p className="text-lg text-gray-600 mt-4 max-w-3xl mx-auto">
-          I am a final-year Software Engineering student at Teesside University, seeking a role that will challenge my skills and provide opportunities to learn from experienced peers. I have a strong foundation in Java, database management, and C# .NET, and I have expanded my expertise in my final project by working with React, Next.js, and Node.js. I am eager to apply my knowledge in a dynamic environment while continuously growing as a developer.
-        </p>
-      </section>
-
       {/* Projects Section */}
       <section className="w-full text-center sm:text-left mt-16">
         <h2 className="text-2xl font-semibold text-black">Projects</h2>
@@ -43,17 +35,17 @@ export default function Home() {
               {/* Toggle between images */}
               <Image
                 className="object-cover w-full h-full cursor-pointer"
-                src={showVocabVoyageImage ? "/VV.PNG" : "/VVHome.PNG"} // Toggle images based on state
+                src={showVocabVoyageImage ? "/VVHome.PNG" : "/VV.PNG"} // Toggle images based on state
                 alt="VocabVoyage"
-                width={320}
-                height={200}
-                onClick={() => handleImageClick(showVocabVoyageImage ? "/VV.PNG" : "/VVHome.PNG")}
+                width={1080}
+                height={1080}
+                onClick={() => handleImageClick(showVocabVoyageImage ? "/VVHome.PNG" : "/VV.PNG")}
               />
               <button
                 onClick={() => setShowVocabVoyageImage(!showVocabVoyageImage)} // Toggle image on click
                 className="absolute top-2 right-2 bg-blue-600 text-white text-sm px-3 py-1 rounded-full hover:bg-blue-700"
               >
-                {showVocabVoyageImage ? "Show Home Image" : "Show VV Image"}
+                {showVocabVoyageImage ? "Show Content Image" : "Show Home Image"}
               </button>
             </div>
             <h3 className="text-xl font-semibold text-gray-800">VocabVoyage</h3>
@@ -75,8 +67,8 @@ export default function Home() {
                 className="object-contain w-full h-48 cursor-pointer" // Adjusted height to prevent overflow
                 src="/DiaryApp.PNG"
                 alt="DiaryApp"
-                width={320}
-                height={240} // Adjusted to fit within its container
+                width={1080}
+                height={1080} // Adjusted to fit within its container
                 onClick={() => handleImageClick("/DiaryApp.PNG")}
               />
             </div>
@@ -84,6 +76,7 @@ export default function Home() {
             <p className="text-gray-600 mt-2">
               A personal diary app allowing users to track their thoughts, moods, and progress over time.
             </p>
+            
             <div className="mt-2 text-sm text-gray-500">
               <span className="bg-green-200 text-green-800 px-3 py-1 rounded-full mr-2 mb-2">Android Studio</span>
               <span className="bg-green-200 text-green-800 px-3 py-1 rounded-full mr-2 mb-2">Kotlin</span>
@@ -99,8 +92,8 @@ export default function Home() {
                 className="object-cover w-full h-full cursor-pointer"
                 src="/Net.PNG"
                 alt="MVC"
-                width={320}
-                height={200}
+                width={1080}
+                height={1080}
                 onClick={() => handleImageClick("/Net.PNG")}
               />
             </div>
@@ -122,21 +115,21 @@ export default function Home() {
       <section className="w-full text-center sm:text-left mt-16">
         <h2 className="text-2xl font-semibold text-black">Contact Me</h2>
         <p className="text-lg text-gray-600 mt-4">
-          Feel free to reach out to me for collaborations, opportunities, or just a friendly chat.
+          Feel free to reach out to me for opportunities, or just a friendly chat.
         </p>
         <div className="mt-4">
           <a
             className="text-blue-600 hover:text-blue-800"
-            href="mailto:joshua.bentley@example.com" // Replace with your email
+            href="mailto:joshua.bentley53@gmail.com" // Replace with your email
           >
-            joshua.bentley@example.com
+            joshua.bentley53@gmail.com
           </a>
         </div>
       </section>
 
       {/* Footer */}
       <footer className="w-full text-center mt-16 text-sm text-gray-500">
-        <p>© 2025 Joshua Bentley. All Rights Reserved.</p>
+        <p>Joshua Bentley.</p>
       </footer>
 
       {/* Modal for Full Image */}
