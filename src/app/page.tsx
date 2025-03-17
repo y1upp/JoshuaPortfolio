@@ -48,8 +48,8 @@ export default function Home() {
             <div className="w-full h-56 mb-4 relative">
               {/* Toggle between images */}
               <Image
-                className="object-cover w-full h-full cursor-pointer"
-                src={showVocabVoyageImage ? "/VVHome.PNG" : "/VV.PNG"} // Toggle images based on state
+  className="object-cover w-full h-full cursor-pointer transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
+  src={showVocabVoyageImage ? "/VVHome.PNG" : "/VV.PNG"} // Toggle images based on state
                 alt="VocabVoyage"
                 width={1080}
                 height={1080}
@@ -82,8 +82,8 @@ export default function Home() {
           <div className="border border-gray-300 p-4 rounded-lg shadow-md bg-white">
             <div className="w-full mb-4 relative">
               <Image
-                className="object-contain w-full h-48 cursor-pointer" // Adjusted height to prevent overflow
-                src="/DiaryApp.PNG"
+              className="object-contain w-full max-h-57 cursor-pointer transition-transform duration-300 hover:scale-105 rounded-lg"
+              src="/DiaryApp.PNG"
                 alt="DiaryApp"
                 width={1080}
                 height={1080} // Adjusted to fit within its container
@@ -107,8 +107,8 @@ export default function Home() {
           <div className="border border-gray-300 p-4 rounded-lg shadow-md bg-white">
             <div className="w-full h-56 mb-4 relative">
               <Image
-                className="object-cover w-full h-full cursor-pointer"
-                src="/Net.PNG"
+  className="object-cover w-full h-full cursor-pointer transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg"
+  src="/Net.PNG"
                 alt="MVC"
                 width={1080}
                 height={1080}
