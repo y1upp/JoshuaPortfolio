@@ -21,10 +21,24 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center gap-16 p-8 sm:p-20">
       {/* Header Section */}
-      <header className="text-center sm:text-left w-full">
-        <h1 className="text-4xl sm:text-5xl font-semibold text-gray-800">Joshua Bentley</h1>
-        <p className="text-lg text-gray-600 mt-2">Graduate Software Engineer | Developer </p>
+      <header className="text-center sm:text-left w-full flex flex-col items-center sm:flex-row">
+        {/* Profile Image */}
+        <div className="w-32 h-32 sm:w-40 sm:h-40 mb-4 sm:mb-0">
+          <Image 
+            src="/JoshPic.jpg" // Replace with the correct path to your image
+            alt="Joshua Bentley"
+            width={150}
+            height={150}
+            className="rounded-full"
+          />
+        </div>
+        {/* Name and Title */}
+        <div className="text-center sm:text-left">
+          <h1 className="text-4xl sm:text-5xl font-semibold text-gray-800">Joshua Bentley</h1>
+          <p className="text-lg text-gray-600 mt-2">Graduate Software Engineer | Developer </p>
+        </div>
       </header>
+
       {/* Projects Section */}
       <section className="w-full text-center sm:text-left mt-16">
         <h2 className="text-2xl font-semibold text-black">Projects</h2>
@@ -50,7 +64,11 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-semibold text-gray-800">VocabVoyage</h3>
             <p className="text-gray-600 mt-2">
-              A language learning platform with gamified elements and interactive features.
+            VocabVoyage is an interactive language learning platform designed to make studying more engaging and effective. 
+            Combining gamification with personalized learning, users progress through lessons, complete challenges, and level up
+             to unlock new content. Built using Next.js, React, and Node.js, with PocketBase for user management, the platform allows 
+             users to build their own word banks and track their progress in real-time. VocabVoyage is crafted to support multiple languages
+              and provide an immersive, fun, and educational experience.
             </p>
             <div className="mt-2 text-sm text-gray-500">
               <span className="bg-blue-200 text-blue-800 px-3 py-1 rounded-full mr-2 mb-2">Next.js</span>
@@ -74,7 +92,7 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-semibold text-gray-800">DiaryApp</h3>
             <p className="text-gray-600 mt-2">
-              A personal diary app allowing users to track their thoughts, moods, and progress over time.
+            A personal diary app developed in Android Studio using Kotlin. It allows users to track their thoughts, moods, and progress over time. Created as part of a 6-person team in an Agile environment, following a Scrum development cycle to ensure efficient collaboration and delivery.
             </p>
             
             <div className="mt-2 text-sm text-gray-500">
@@ -99,8 +117,9 @@ export default function Home() {
             </div>
             <h3 className="text-xl font-semibold text-gray-800">MVC App</h3>
             <p className="text-gray-600 mt-2">
-              A simple Model-View-Controller application built for practicing architecture patterns.
-            </p>
+            My first dive into DevOps practices involved creating and managing Azure resources to host and deploy a web app. Leveraging Azure's cloud services, I set up an SQL database, 
+            integrated continuous integration and deployment pipelines, and ensured seamless hosting for the application. The web app, now live, can be accessed through the following link: <a href ="https://threeamigowebapp-d9akb5fehhhqeuhe.uksouth-01.azurewebsites.net/Home/Index">ThAmCo Product</a>. 
+            This project provided valuable hands-on experience with DevOps workflows, cloud resource management, and automation in a real-world setting.</p>
             <div className="mt-2 text-sm text-gray-500">
               <span className="bg-red-200 text-red-800 px-3 py-1 rounded-full mr-2 mb-2">C#</span>
               <span className="bg-red-200 text-red-800 px-3 py-1 rounded-full mr-2 mb-2">.NET</span>
