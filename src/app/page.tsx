@@ -63,7 +63,7 @@ export default function Home() {
               </button>
             </div>
             <h3 className="text-xl font-semibold text-gray-800">VocabVoyage</h3>
-            <p className="text-lg text-gray-600 mt-2">
+            <p className="text-gray-600 mt-2">
   VocabVoyage is an interactive language learning platform designed to make studying more engaging and effective. 
   Combining gamification with personalized learning, users progress through lessons, complete challenges, and level up
   to unlock new content. Built using Next.js, React, and Node.js, with PocketBase for user management, the platform allows 
