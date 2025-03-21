@@ -8,15 +8,6 @@ export default function Home() {
   const [showVocabVoyageImage, setShowVocabVoyageImage] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalImageSrc, setModalImageSrc] = useState<string>("");
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const nextProject = () => {
-    setCurrentIndex((prev) => (prev + 1) % 3);
-  };
-
-  const prevProject = () => {
-    setCurrentIndex((prev) => (prev - 1 + 3) % 3);
-  };
 
   const handleImageClick = (src: string) => {
     setModalImageSrc(src);
